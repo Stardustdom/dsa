@@ -1,10 +1,11 @@
 #include <stdio.h>
 #define SIZE 3
-int choice,rear=-1,front=-1,i,element;
+int choice,rear=-1,front=-1,i;
+char element;
 char QUEUE[SIZE];
 
 void ENQUE(char ELEMENT){
-    if(front=-1){
+    if(front==-1){
         front++;
     }
     QUEUE[++rear]=ELEMENT;
